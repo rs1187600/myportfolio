@@ -1,53 +1,162 @@
-body {
-    font-family: Arial, sans-serif;
-    scroll-behavior: smooth;
+* {
+    font-family: "Poppins", sans-serif;
 }
+
+body {
+    background: #f8f9fa;
+}
+
+/* Navbar */
+
+.navbar {
+    background: rgba(0,0,0,0.9);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
 
 /* Hero */
+
 .hero {
     height: 100vh;
-    background: linear-gradient(to right, #0d6efd, #0b5ed7);
+    background: linear-gradient(120deg,#0d6efd,#6610f2);
     color: white;
+
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.hero h1 span {
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.hero span {
     color: #ffd700;
 }
 
-/* Section */
-.section {
-    padding: 80px 0;
+.hero-buttons {
+    margin-top: 30px;
 }
 
-/* Skill Cards */
-.skill-card {
-    padding: 20px;
+.btn-main {
+    background: #ffd700;
+    color: black;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.btn-main:hover {
+    background: white;
+}
+
+.btn-outline {
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin-left: 10px;
+}
+
+.btn-outline:hover {
+    background: white;
+    color: black;
+}
+
+
+/* Sections */
+
+.section {
+    padding: 90px 0;
+}
+
+.section h2 {
+    font-weight: 700;
+}
+
+
+/* Profile */
+
+.profile-img {
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+
+/* Skills */
+
+.skill-box {
+    background: white;
+    padding: 30px;
     text-align: center;
-    border: none;
+    border-radius: 15px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
     transition: 0.3s;
 }
 
-.skill-card:hover {
-    transform: translateY(-5px);
+.skill-box i {
+    font-size: 40px;
+    color: #0d6efd;
+    margin-bottom: 15px;
 }
 
+.skill-box:hover {
+    transform: translateY(-10px);
+}
+
+
 /* Timeline */
+
+.timeline {
+    max-width: 700px;
+    margin: auto;
+}
+
 .timeline-item {
-    border-left: 3px solid #0d6efd;
-    padding-left: 20px;
+    background: white;
+    padding: 25px;
     margin-bottom: 30px;
+    border-left: 5px solid #0d6efd;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
 .timeline-item h5 {
     color: #0d6efd;
 }
 
+
+/* Contact */
+
+.contact-section {
+    background: linear-gradient(120deg,#6610f2,#0d6efd);
+    color: white;
+}
+
+.contact-section i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
 /* Footer */
-.footer {
+
+footer {
     background: black;
     color: white;
     text-align: center;

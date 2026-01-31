@@ -1,10 +1,13 @@
-// Simple scroll animation
-window.addEventListener("scroll", function () {
-    let navbar = document.querySelector(".navbar");
+// Navbar shadow
 
-    if (window.scrollY > 100) {
-        navbar.classList.add("shadow");
+window.addEventListener("scroll", () => {
+
+    const nav = document.querySelector(".navbar");
+
+    if (window.scrollY > 80) {
+        nav.classList.add("shadow");
     } else {
-        navbar.classList.remove("shadow");
+        nav.classList.remove("shadow");
     }
+
 });
