@@ -6,4 +6,8 @@
 this is ""Bold text""
 Changes done by cowrker.
 This is my new commit
+<<<<<<< HEAD
 for teasting my end
+=======
+commit for task
+>>>>>>> refs/remotes/origin/main
