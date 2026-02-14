@@ -5,5 +5,4 @@
 
 this is ""Bold text""
 Changes done by cowrker.
-This is my new commit
-commit for task
+This is my new commi
